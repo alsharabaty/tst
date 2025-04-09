@@ -1,1 +1,28 @@
-Hello all !!
+
+Task 1:
+--------------------
+
+* Theoretical part:
+
+1\
+git status:
+this command used to know in details your status of your repo, the status
+of file wether it was modified M, added A or un-tracked ??.
+git init:
+this command initialize a repo in your current direction.
+git commit:
+to add you changes and move it from staged to repo.
+git push:
+to push your files and modifications to Github and the remote repo.
+2\
+git add command put your files to staged phase where you can add more
+modifications to your code without falling your source code with incompleted
+code or modifications. staged phase letting you implement the code with the
+added file but without any damage on your repo.
+3\
+a. GitLab, GitKraken
+b. tracking code modifications to provide versions control VCS
+c. True.
+4\
+it sets the difult as "git push origin main", so for the times after you 
+write "git push -u origin main" you just can write "git push"
