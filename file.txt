@@ -26,3 +26,20 @@ c. True.
 4\
 it sets the difult as "git push origin main", so for the times after you 
 write "git push -u origin main" you just can write "git push"
+
+* Practical part:
+
+1. ssh-keygen -t ed25519 -C "hazim.sh105@gmail.com"
+to generate a keygen
+2. press "Enter" to set the difult direction
+3. press "Enter" for no password you need
+4. starting SSH Agents and adding my Key using
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+5. adding the public key to github using 
+cat ~/.ssh/id_ed25519.pub
+6. then `from github go to:
+a. setting ==> SSH and GPG keys
+b. New SSH key 
+c. paste the previos key 
+CONGRADS your SSH Key is ready to use!
